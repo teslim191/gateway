@@ -1,0 +1,10 @@
+# curl -X POST -d '{
+#     "apiName": "regtest",
+#     "host": "http://localhost",
+#     "port":"7000",
+#     "path":"api",
+#     "url":"http://localhost:7000/api/"
+# }'
+# -H 'Content-Type:application/json'
+
+curl -d GET http://localhost:9800/registrytest/developers
